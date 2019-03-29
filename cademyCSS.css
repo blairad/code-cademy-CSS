@@ -1,22 +1,34 @@
-ypography is the art of arranging text on a page.
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css'></head>
+  
+<body>
+  <div class="grid">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    <div class="box d">D</div>
+    <div class="box e">E</div>
+    <div class="box f">F</div>
+    <div class="box g">G</div>
+  </div>
+</body>
 
-Text can appear in any number of weights, with the font-weight property.
+</html>
 
-Text can appear in italics with the font-style property.
-
-The vertical spacing between lines of text can be modified with the line-height property.
-
-Serif fonts have extra details on the ends of each letter. Sans-Serif fonts do not.
-
-Fallback fonts are used when a certain font is not installed on a user’s computer.
-
-Google Fonts provides free fonts that can be used in an HTML file with the <link> tag or the @font-face 
-property.
-
-Local fonts can be added to a document with the @font-face property and the path to the font’s source.
-
-The word-spacing property changes how far apart individual words are.
-
-The letter-spacing property changes how far apart individual letters are.
-
-The text-align property changes the horizontal alignment of text.
+<style> 
+.grid {
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    display: grid;
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+</style>
