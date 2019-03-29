@@ -1,28 +1,21 @@
+Named colors — there are 147 named colors, which you can review here.
 
-The position property allows you to specify the position of an element in three different ways.
+Hexadecimal or hex colors
 
-When set to relative, an element’s position is relative to its default position on the page.
+Hexadecimal is a number system with has sixteen digits, 0 to 9 followed by “A” to “F”.
 
-When set to absolute, an element’s position is relative to its closest positioned parent element. 
-It can be pinned to any part of the web page, but the element will still move with the rest of the 
-document when the page is scrolled.
+Hex values always begin with # and specify values of red, blue and green using hexademical numbers 
+such as #23F41A.
 
-When set to fixed, an element’s position can be pinned to any part of the web page. The element will 
-remain in view no matter what.
+RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.
 
-The z-index of an element specifies how far back or how far forward an element appears on the page when 
-it overlaps other elements.
+RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).
 
-The display property allows you control how an element flows vertically and horizontally a document.
+HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness 
+(how light or dark a color is).
 
-inline elements take up as little space as possible, and they cannot have manually-adjusted width or 
-height.
+Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: 
+hsl(200, 20%, 50%).
 
-block elements take up the width of their container and can have manually-adjusted heights.
-
-inline-block elements can have set width and height, but they can also appear next to each other 
-and do not take up their entire container width.
-
-The float property can move elements as far left or as far right as possible on a web page.
-
-You can clear an element’s left or right side (or both) using the clear property.
+You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a 
+percentage.
