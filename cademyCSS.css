@@ -1,18 +1,21 @@
-the example above, the HTML creates a web page with five distinct parts.
+grid-template-areas specifies grid named grid areas
 
-The grid-template-areas declaration in the .container rule set creates a 2-column, 4-row layout.
+grid layouts are two-dimensional: they have a row, or inline, axis and a column, or block, axis.
 
-The grid-template-rows declaration specifies the height of each of the four rows from top to bottom: 
-300 pixels, 120 pixels, 800 pixels, and 120 pixels.
+justify-items specifies how individual elements should spread across the row axis
 
-The grid-template-columns declaration uses the fr value to cause the left column to use one fourth of 
-the available space on the page and the right column to use three-fourths of the available space on the 
-page.
+justify-content specifies how groups of elements should spread across the row axis
 
-In each rule set below .container, we use the grid-area property to tell that section to cover the 
-portion of the page specified. The header element spans the first row and both columns. The nav element 
-spans the second row and both columns. The element with class .info spans the third row and left column. 
-The element with class .services spans the third row and right column. The footer element spans the 
-bottom row and both columns.
+justify-self specifies how a single element should position itself with respect to the row axis
 
-That’s it! An entire page laid out in 40 lines of code.
+align-items specifies how individual elements should spread across the column axis
+
+align-content specifies how groups of elements should spread across the column axis
+
+align-self specifies how a single element should position itself with respect to the column axis
+
+grid-auto-rows specifies the height of rows added implicitly to the grid
+
+grid-auto-columns specifies the width of columns added implicitly to the grid
+
+grid-auto-flow specifies in which direction implicit elements should be created
