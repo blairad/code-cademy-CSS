@@ -1,14 +1,18 @@
-grid-template-columns defines the number and sizes of the columns of the grid
+the example above, the HTML creates a web page with five distinct parts.
 
-grid-template-rows defines the number and sizes of the rows of the grid
+The grid-template-areas declaration in the .container rule set creates a 2-column, 4-row layout.
 
-grid-template is a shorthand for defining both grid-template-columns and grid-template-rows in one line
+The grid-template-rows declaration specifies the height of each of the four rows from top to bottom: 
+300 pixels, 120 pixels, 800 pixels, and 120 pixels.
 
-grid-gap puts blank space between rows and/or columns of the grid
+The grid-template-columns declaration uses the fr value to cause the left column to use one fourth of 
+the available space on the page and the right column to use three-fourths of the available space on the 
+page.
 
-grid-row-start and grid-row-end makes elements span certain rows of the grid
+In each rule set below .container, we use the grid-area property to tell that section to cover the 
+portion of the page specified. The header element spans the first row and both columns. The nav element 
+spans the second row and both columns. The element with class .info spans the third row and left column. 
+The element with class .services spans the third row and right column. The footer element spans the 
+bottom row and both columns.
 
-grid-column-start and grid-column-end makes elements span certain columns of the grid
-
-grid-area is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end, 
-all in one line
+That’s it! An entire page laid out in 40 lines of code.
